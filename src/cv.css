@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.cv-print-btn {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+  z-index: 10;
+}
+
+.cv-print-btn:hover {
+  background: #333;
+}
+
+.cv-back-btn {
+  position: fixed;
+  top: 20px;
+  left: 24px;
+  background: transparent;
+  color: #666;
+  border: 1px solid #ddd;
+  padding: 7px 14px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+  z-index: 10;
+  display: inline-block;
+}
+
+.cv-back-btn:hover {
+  border-color: #999;
+  color: #111;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 40px 60px;
+}
+
+/* ── HEADER ────────────────────────────── */
+
+.cv-header {
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #111;
+}
+
+.cv-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.cv-role {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.cv-contact {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #444;
+  align-items: center;
+}
+
+.cv-contact a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cv-contact a:hover {
+  color: #000;
+}
+
+/* ── SECCIONES ─────────────────────────── */
+
+.cv-section {
+  margin-top: 28px;
+}
+
+.cv-section h2 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #555;
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* ── ITEMS ─────────────────────────────── */
+
+.cv-item {
+  margin-bottom: 18px;
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 5px;
+}
+
+.cv-item h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cv-item-date {
+  font-size: 12px;
+  color: #777;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.cv-item ul {
+  padding-left: 18px;
+  margin-bottom: 5px;
+}
+
+.cv-item ul li {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.tech {
+  font-size: 12px;
+  color: #777;
+  margin-top: 3px;
+}
+
+/* ── SKILLS ────────────────────────────── */
+
+.cv-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+}
+
+.cv-skill-item h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cv-skill-item p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ── PRINT ─────────────────────────────── */
+
+@media print {
+  .cv-print-btn,
+  .cv-back-btn {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .cv-container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  @page {
+    margin: 1.5cm 2cm;
+  }
+}
