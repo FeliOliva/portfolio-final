@@ -17,7 +17,7 @@ function CV() {
           <div className="cv-contact">
             <span>felitooliva2@gmail.com</span>
             <span>•</span>
-            <a href="https://portfolio.felipeoliva.site/" target="_blank" rel="noreferrer">portfolio</a>
+            <a href="https://felipeoliva.site/" target="_blank" rel="noreferrer">portfolio</a>
             <span>•</span>
             <a href="https://github.com/FeliOliva" target="_blank" rel="noreferrer">github</a>
             <span>•</span>

@@ -64,7 +64,7 @@ const LANGS = {
         pills: ["Node.js", "WebSockets", "RS232", "Computer Vision", "MySQL"],
         metric: "30% mejora eficiencia operativa",
         repoUrl: "https://github.com/FeliOliva/tesis",
-        demoUrl: null,
+        demoUrl: "/demo-tesis/",
       },
       {
         tag: "fullstack · comercial",
@@ -73,7 +73,7 @@ const LANGS = {
         pills: ["React", "Node.js", "Express", "MySQL", "REST API", "Ant Design"],
         metric: "Automatización de facturación, cobranza y reportes operativos",
         repoUrl: "https://github.com/FeliOliva/ariel",
-        demoUrl: null,
+        demoUrl: "/demo-ariel/",
       },
       {
         tag: "fullstack · gestión",
@@ -83,7 +83,7 @@ const LANGS = {
         metric: "Operación diaria centralizada — caja, reparto y cobranza en un solo sistema",
         repoUrl: "https://github.com/FeliOliva/front-mi-familia",
         repoUrl2: "https://github.com/FeliOliva/backend-mi-familia",
-        demoUrl: null,
+        demoUrl: "/demo-sistema-verdu/",
       },
       {
         tag: "iot · interdisciplinario",
@@ -92,7 +92,7 @@ const LANGS = {
         pills: ["MQTT", "Node.js", "MySQL", "IoT Sensors"],
         metric: "Integración física-digital — sensores reales con persistencia de eventos en BD",
         repoUrl: "https://github.com/FeliOliva/backend-interCarreras",
-        demoUrl: null,
+        demoUrl: "/demo-tamagochi/",
       },
       {
         tag: "backend · automatización",
@@ -101,7 +101,7 @@ const LANGS = {
         pills: ["Node.js", "Baileys", "WhatsApp Web", "node-schedule", "PM2"],
         metric: "Recordatorios automáticos con control horario y alta confiabilidad",
         repoUrl: "https://github.com/FeliOliva/bot-whatsapp",
-        demoUrl: null,
+        demoUrl: "/demo-bot/",
       },
       {
         tag: "next.js · producción",
@@ -176,7 +176,7 @@ const LANGS = {
         pills: ["Node.js", "WebSockets", "RS232", "Computer Vision", "MySQL"],
         metric: "30% operational efficiency improvement",
         repoUrl: "https://github.com/FeliOliva/tesis",
-        demoUrl: null,
+        demoUrl: "/demo-tesis/",
       },
       {
         tag: "fullstack · commercial",
@@ -185,7 +185,7 @@ const LANGS = {
         pills: ["React", "Node.js", "Express", "MySQL", "REST API", "Ant Design"],
         metric: "Automated billing, collections and operational reports",
         repoUrl: "https://github.com/FeliOliva/ariel",
-        demoUrl: null,
+        demoUrl: "/demo-ariel/",
       },
       {
         tag: "fullstack · management",
@@ -195,7 +195,7 @@ const LANGS = {
         metric: "Centralized daily operations — cash, delivery and collections in one system",
         repoUrl: "https://github.com/FeliOliva/front-mi-familia",
         repoUrl2: "https://github.com/FeliOliva/backend-mi-familia",
-        demoUrl: null,
+        demoUrl: "/demo-sistema-verdu/",
       },
       {
         tag: "iot · interdisciplinary",
@@ -204,7 +204,7 @@ const LANGS = {
         pills: ["MQTT", "Node.js", "MySQL", "IoT Sensors"],
         metric: "Physical-digital integration — real sensors with event persistence in DB",
         repoUrl: "https://github.com/FeliOliva/backend-interCarreras",
-        demoUrl: null,
+        demoUrl: "/demo-tamagochi/",
       },
       {
         tag: "backend · automation",
@@ -213,7 +213,7 @@ const LANGS = {
         pills: ["Node.js", "Baileys", "WhatsApp Web", "node-schedule", "PM2"],
         metric: "Automated reminders with time control and high reliability",
         repoUrl: "https://github.com/FeliOliva/bot-whatsapp",
-        demoUrl: null,
+        demoUrl: "/demo-bot/",
       },
       {
         tag: "next.js · production",
@@ -288,7 +288,7 @@ const LANGS = {
         pills: ["Node.js", "WebSockets", "RS232", "Computer Vision", "MySQL"],
         metric: "30% de melhoria na eficiência operacional",
         repoUrl: "https://github.com/FeliOliva/tesis",
-        demoUrl: null,
+        demoUrl: "/demo-tesis/",
       },
       {
         tag: "fullstack · comercial",
@@ -297,7 +297,7 @@ const LANGS = {
         pills: ["React", "Node.js", "Express", "MySQL", "REST API", "Ant Design"],
         metric: "Automação de faturamento, cobranças e relatórios operacionais",
         repoUrl: "https://github.com/FeliOliva/ariel",
-        demoUrl: null,
+        demoUrl: "/demo-ariel/",
       },
       {
         tag: "fullstack · gestão",
@@ -307,7 +307,7 @@ const LANGS = {
         metric: "Operação diária centralizada — caixa, entrega e cobranças em um único sistema",
         repoUrl: "https://github.com/FeliOliva/front-mi-familia",
         repoUrl2: "https://github.com/FeliOliva/backend-mi-familia",
-        demoUrl: null,
+        demoUrl: "/demo-sistema-verdu/",
       },
       {
         tag: "iot · interdisciplinar",
@@ -316,7 +316,7 @@ const LANGS = {
         pills: ["MQTT", "Node.js", "MySQL", "IoT Sensors"],
         metric: "Integração físico-digital — sensores reais com persistência de eventos no BD",
         repoUrl: "https://github.com/FeliOliva/backend-interCarreras",
-        demoUrl: null,
+        demoUrl: "/demo-tamagochi/",
       },
       {
         tag: "backend · automação",
@@ -325,7 +325,7 @@ const LANGS = {
         pills: ["Node.js", "Baileys", "WhatsApp Web", "node-schedule", "PM2"],
         metric: "Lembretes automáticos com controle de horário e alta confiabilidade",
         repoUrl: "https://github.com/FeliOliva/bot-whatsapp",
-        demoUrl: null,
+        demoUrl: "/demo-bot/",
       },
       {
         tag: "next.js · produção",
@@ -640,8 +640,8 @@ const App = () => {
             <a className="contact-item" href="https://github.com/FeliOliva" target="_blank" rel="noreferrer">
               <span className="contact-icon">⌥</span> github.com/FeliOliva
             </a>
-            <a className="contact-item" href="https://portfolio.felipeoliva.site" target="_blank" rel="noreferrer">
-              <span className="contact-icon">◈</span> portfolio.felipeoliva.site
+            <a className="contact-item" href="https://felipeoliva.site" target="_blank" rel="noreferrer">
+              <span className="contact-icon">◈</span> felipeoliva.site
             </a>
           </div>
         </div>
